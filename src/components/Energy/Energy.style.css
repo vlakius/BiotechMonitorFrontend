@@ -1,0 +1,40 @@
+.energy {
+  width: 100%;
+}
+
+.energy-title {
+  font-size: 24px;
+  border-radius: 190px;
+  width: 90%;
+  border: 1px solid #fff;
+  position: relative;
+  margin-left: 5%;
+  text-align: center;
+  background: #fff;
+}
+
+.energy-value {
+  font-size: 40px;
+  border-radius: 90px;
+  margin-top: 20px;
+  border: 25px solid #fff;
+  color: #0027a6;
+  box-shadow: 3px 3px 15px -2px snow;
+  background: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  grid-gap: 1em;
+  gap: 1em;
+  padding: 0 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+  .energy-title {
+    font-size: 18px;
+  }
+  .energy-value {
+    font-size: 30px;
+    margin-top: 5px;
+  }
+}
